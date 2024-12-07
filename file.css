@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#risultati {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+
+}
+
+.tastoCerca {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.pulisci {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+ul {
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+#lavoro {
+    margin-right: 20px;
+}
+
+button {
+    padding-right: 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+form {
+    user-select: none;
+}
